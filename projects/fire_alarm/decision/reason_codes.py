@@ -1,0 +1,27 @@
+from __future__ import annotations
+
+SMOKE_ACTIVE = "smoke_active"
+GAS_ACTIVE = "gas_active"
+MULTI_HAZARD = "multi_hazard"
+ENVIRONMENT_OBSERVE = "environment_observe"
+ENVIRONMENT_PREALARM = "environment_prealarm"
+ENVIRONMENT_ALARM = "environment_alarm"
+ENVIRONMENT_CRITICAL = "environment_critical"
+OTHER_ROOM_OBSERVE = "other_room_observe"
+OTHER_ROOM_PREALARM = "other_room_prealarm"
+OTHER_ROOM_ALARM = "other_room_alarm"
+OTHER_ROOM_CRITICAL = "other_room_critical"
+STOVE_REMINDER = "stove_reminder"
+TEMPERATURE_DRIVEN_RISK = "temperature_driven_risk"
+OCCUPANCY_OCCUPIED = "occupancy_occupied"
+OCCUPANCY_UNOCCUPIED = "occupancy_unoccupied"
+OCCUPANCY_UNKNOWN = "occupancy_unknown"
+PROTECTIVE_SHUTDOWN_REQUESTED = "protective_shutdown_requested"
+HARD_LOCKOUT_REQUESTED = "hard_lockout_requested"
+HIGH_RISK_POLICY = "high_risk_policy"
+CLEAR_BLOCK_ACTIVE = "clear_block_active"
+FAULT_ONLY = "fault_only"
+NO_FIRE_MONITOR_RISK = "no_fire_monitor_risk"
+ALREADY_HARD_LOCKED = "already_hard_locked"
+
+__all__ = [name for name in globals() if name.isupper()]
